@@ -1,0 +1,48 @@
+[root@apps opt]# openshift-install --dir=install_dir/ wait-for bootstrap-complete --log-level=debug
+DEBUG OpenShift Installer 4.18.0-okd-scos.9
+DEBUG Built from commit 9357b668a760d53a34f7094840d1e9f773127441
+INFO Waiting up to 20m0s (until 9:53PM CEST) for the Kubernetes API at https://api.lab.okd.local:6443...
+DEBUG Loading Agent Config...
+DEBUG Still waiting for the Kubernetes API: Get "https://api.lab.okd.local:6443/version": EOF
+DEBUG Still waiting for the Kubernetes API: Get "https://api.lab.okd.local:6443/version": EOF
+DEBUG Still waiting for the Kubernetes API: Get "https://api.lab.okd.local:6443/version": EOF
+DEBUG Still waiting for the Kubernetes API: Get "https://api.lab.okd.local:6443/version": EOF
+DEBUG Still waiting for the Kubernetes API: Get "https://api.lab.okd.local:6443/version": EOF
+DEBUG Still waiting for the Kubernetes API: Get "https://api.lab.okd.local:6443/version": EOF
+INFO API v1.31.7-dirty up
+DEBUG Loading Install Config...
+DEBUG   Loading SSH Key...
+DEBUG   Loading Base Domain...
+DEBUG     Loading Platform...
+DEBUG   Loading Cluster Name...
+DEBUG     Loading Base Domain...
+DEBUG     Loading Platform...
+DEBUG   Loading Pull Secret...
+DEBUG   Loading Platform...
+DEBUG Using Install Config loaded from state file
+INFO Waiting up to 45m0s (until 10:31PM CEST) for bootstrapping to complete...
+E0508 22:01:12.764971    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: the server is currently unable to handle the request (get configmaps)" logger="UnhandledError"
+W0508 22:01:26.880175    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:01:26.881194    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"
+W0508 22:01:39.809624    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:01:39.809805    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"
+W0508 22:01:55.748513    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:01:55.748614    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"
+W0508 22:02:13.551985    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:02:13.552124    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"
+W0508 22:02:40.085852    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:02:40.085934    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"
+W0508 22:03:33.656223    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:03:33.656430    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"
+W0508 22:04:36.860409    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:04:36.860506    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"
+W0508 22:05:23.851838    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:05:23.851922    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"
+W0508 22:06:25.548255    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:06:25.548351    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"
+ W0508 22:07:34.458360    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:07:34.458566    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"
+W0508 22:08:17.573374    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:08:17.573479    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"
+W0508 22:08:59.519871    2806 reflector.go:561] k8s.io/client-go/tools/watch/informerwatcher.go:146: failed to list *v1.ConfigMap: Get "https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354": EOF
+E0508 22:08:59.520908    2806 reflector.go:158] "Unhandled Error" err="k8s.io/client-go/tools/watch/informerwatcher.go:146: Failed to watch *v1.ConfigMap: failed to list *v1.ConfigMap: Get \"https://api.lab.okd.local:6443/api/v1/namespaces/kube-system/configmaps?fieldSelector=metadata.name%3Dbootstrap&resourceVersion=11354\": EOF" logger="UnhandledError"

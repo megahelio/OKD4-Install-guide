@@ -11,10 +11,14 @@
             "id": "b6f251f80205a3a4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Guías/3. Namespaces, Pods y Contenedores.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "3. Namespaces, Pods y Contenedores"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Guías/3. Namespaces, Pods y Contenedores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Enlaces entrantes de 3. Namespaces, Pods y Contenedores"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Guías/3. Namespaces, Pods y Contenedores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Enlaces salientes de 3. Namespaces, Pods y Contenedores"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Guías/3. Namespaces, Pods y Contenedores.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de 3. Namespaces, Pods y Contenedores"
             }
           }
         ]
@@ -164,9 +171,41 @@
   },
   "active": "b6f251f80205a3a4",
   "lastOpenFiles": [
+    "Guías/2. Instalación VMware imitando baremetal OKD4.md",
+    "Guías/1.2. Montar Gateway.md",
+    "Canvas/Resumen.canvas",
+    "Fallos comúnes.md",
+    "Tutorial OKD.png",
+    "log wait.txt",
+    "Logs/Wait-bootstrap-log.md",
+    "Logs/Paste_comands.md",
+    "Logs/Oc get csr.json.md",
+    "Logs/Log Aprobación csr.md",
+    "Logs/Get mcp con worker y master.md",
+    "Logs",
+    "Guías/Configuracion/Macs e ips vmware.csv.md",
+    "Guías/Configuracion/install-config.yaml.bak.md",
+    "Guías/Scripts/worker.md",
+    "Guías/Scripts/master.md",
+    "Guías/Scripts/compile.sh.md",
+    "Guías/Scripts/bootstrap.md",
+    "Guías/2.subtema/Instalación binario JQ.md",
+    "Guías/2.subtema/4.18.0-okd-scos.9.png",
+    "Guías/2.subtema/4.18.0-okd-scos.9 Assets list.png",
+    "Guías/1.subtema/Explicacion setsebool.md",
+    "Guías/Configuracion",
+    "Guías/Scripts",
+    "Guías/2.subtema",
+    "Guías/3. Namespaces, Pods y Contenedores.md",
+    "Guías/1.subtema",
+    "Guías/1. Instalación utilidades services.md",
+    "Guías/0. Guide_Installing an OKD 4.5 Cluster_by Craig Robinson_Jul, 2020_Medium.pdf",
+    "Guías",
+    "Canvas",
+    "Arquitectura de red/imagenes",
+    "Arquitectura de red/Arquitectura de Red.canvas",
     "index.md",
     "category-folder/Some note.md",
-    "category-folder/index.md",
-    "category-folder"
+    "category-folder/index.md"
   ]
 }
