@@ -11,14 +11,12 @@
             "id": "b6f251f80205a3a4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
+                "file": "Guías/0. Guide_Installing an OKD 4.5 Cluster_by Craig Robinson_Jul, 2020_Medium.pdf"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-file-text",
+              "title": "0. Guide_Installing an OKD 4.5 Cluster_by Craig Robinson_Jul, 2020_Medium"
             }
           }
         ]
@@ -53,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "okd4",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Guías/3. Namespaces, Pods y Contenedores.md",
+                "file": "Guías/0. Guide_Installing an OKD 4.5 Cluster_by Craig Robinson_Jul, 2020_Medium.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 3. Namespaces, Pods y Contenedores"
+              "title": "Enlaces entrantes de 0. Guide_Installing an OKD 4.5 Cluster_by Craig Robinson_Jul, 2020_Medium"
             }
           },
           {
@@ -142,21 +140,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guías/3. Namespaces, Pods y Contenedores.md",
+                "file": "Guías/0. Guide_Installing an OKD 4.5 Cluster_by Craig Robinson_Jul, 2020_Medium.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 3. Namespaces, Pods y Contenedores"
+              "title": "Esquema de 0. Guide_Installing an OKD 4.5 Cluster_by Craig Robinson_Jul, 2020_Medium"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,12 +169,14 @@
   },
   "active": "b6f251f80205a3a4",
   "lastOpenFiles": [
-    "Guías/1. Instalación utilidades services.md",
-    "index.md",
-    "Fallos comúnes.md",
-    "Guías/3. Namespaces, Pods y Contenedores.md",
     "Guías/2. Instalación VMware imitando baremetal OKD4.md",
+    "Guías/3. Namespaces, Pods y Contenedores.md",
     "Guías/1.2. Montar Gateway.md",
+    "Guías/1. Instalación utilidades services.md",
+    "Guías/0. Guide_Installing an OKD 4.5 Cluster_by Craig Robinson_Jul, 2020_Medium.pdf",
+    "index.md",
+    "Arquitectura de red/imagenes/Diseño lógico red ODAP-Página-2.drawio.png",
+    "Fallos comúnes.md",
     "Canvas/Resumen.canvas",
     "Tutorial OKD.png",
     "log wait.txt",
@@ -200,12 +200,10 @@
     "Guías/Scripts",
     "Guías/2.subtema",
     "Guías/1.subtema",
-    "Guías/0. Guide_Installing an OKD 4.5 Cluster_by Craig Robinson_Jul, 2020_Medium.pdf",
     "Guías",
     "Canvas",
     "Arquitectura de red/imagenes",
     "Arquitectura de red/Arquitectura de Red.canvas",
-    "index.md",
     "category-folder/Some note.md",
     "category-folder/index.md"
   ]
