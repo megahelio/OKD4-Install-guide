@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "index"
             }
           }
         ]
@@ -172,7 +172,7 @@
   "active": "b6f251f80205a3a4",
   "lastOpenFiles": [
     "Guías/1. Instalación utilidades services.md",
-    "Index.md",
+    "index.md",
     "Fallos comúnes.md",
     "Guías/3. Namespaces, Pods y Contenedores.md",
     "Guías/2. Instalación VMware imitando baremetal OKD4.md",
