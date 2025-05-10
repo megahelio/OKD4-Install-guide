@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fallos comúnes.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fallos comúnes"
+              "title": "index"
             }
           }
         ],
@@ -186,8 +186,8 @@
   },
   "active": "63575335434ac311",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Fallos comúnes.md",
+    "conflict-files-obsidian-git.md",
     "Guías/2. Instalación VMware imitando baremetal OKD4.md",
     "Guías/1. Instalación utilidades services.md",
     "Guías/3. Namespaces, Pods y Contenedores.md",
