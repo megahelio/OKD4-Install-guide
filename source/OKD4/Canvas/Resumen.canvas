@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"523f7783dae65936","type":"file","file":"Guías/1. Instalación utilidades services.md","x":-140,"y":-1220,"width":604,"height":540,"color":"4"},
+		{"id":"20dd60dbf2edfcc4","type":"file","file":"Guías/0. Guide_Installing an OKD 4.5 Cluster_by Craig Robinson_Jul, 2020_Medium.pdf","x":-560,"y":-1220,"width":400,"height":540},
+		{"id":"dd3387f885b7ae8d","type":"file","file":"Guías/2. Instalación VMware imitando baremetal OKD4.md","x":480,"y":-1220,"width":560,"height":540}
+	],
+	"edges":[]
+}
