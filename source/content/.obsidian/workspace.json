@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guías/3. Namespaces, Pods y Contenedores.md",
+                "file": "Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Namespaces, Pods y Contenedores"
+              "title": "Index"
             }
           }
         ]
@@ -171,10 +171,13 @@
   },
   "active": "b6f251f80205a3a4",
   "lastOpenFiles": [
+    "Guías/1. Instalación utilidades services.md",
+    "Index.md",
+    "Fallos comúnes.md",
+    "Guías/3. Namespaces, Pods y Contenedores.md",
     "Guías/2. Instalación VMware imitando baremetal OKD4.md",
     "Guías/1.2. Montar Gateway.md",
     "Canvas/Resumen.canvas",
-    "Fallos comúnes.md",
     "Tutorial OKD.png",
     "log wait.txt",
     "Logs/Wait-bootstrap-log.md",
@@ -196,9 +199,7 @@
     "Guías/Configuracion",
     "Guías/Scripts",
     "Guías/2.subtema",
-    "Guías/3. Namespaces, Pods y Contenedores.md",
     "Guías/1.subtema",
-    "Guías/1. Instalación utilidades services.md",
     "Guías/0. Guide_Installing an OKD 4.5 Cluster_by Craig Robinson_Jul, 2020_Medium.pdf",
     "Guías",
     "Canvas",
