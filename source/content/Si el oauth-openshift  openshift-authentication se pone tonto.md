@@ -20,3 +20,11 @@ podAntiAffinity:
                     oauth-openshift-anti-affinity: "true"
                 topologyKey: kubernetes.io/hostname
 ```
+
+```
+spec:
+  nodePlacement:
+    nodeSelector:
+      matchLabels:
+        node-role.kubernetes.io/worker: ""
+```
