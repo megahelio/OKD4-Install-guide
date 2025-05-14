@@ -1,3 +1,4 @@
+Si al hacer ``oc describe pods -n openshift-ingress router-default`` 
 >Warning FailedScheduling 73m (x4 over 88m) default-scheduler 0/1 nodes are available: 1 node(s) had untolerated taint {node-role.kubernetes.io/master: }. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
 
 Esto abre un yaml en vim:
