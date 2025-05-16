@@ -3,7 +3,7 @@
 > [!Warning]
 > En desarrollo...
 
-Empezar por aquí: [[1. Instalación utilidades services]]
+Empezar por aquí: [[1. Setup]]
 ![[Diseño lógico red ODAP-Página-2.drawio.png]]
 
 | nombre            | ram(GB) | cpu(logic CPU) | disco(GB) |
