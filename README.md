@@ -10,17 +10,12 @@ Esta guía nace como parte de un trabajo práctico para una asignatura del Mást
 
 El sitio recopila:
 
-    Pasos detallados para preparar la infraestructura (red, DNS, DHCP, PXE, etc.).
-
-    Configuración de nodos (bootstrap, masters y workers).
-
-    Instalación de OKD 4 en VMware/bare-metal.
-
-    Solución a problemas comunes y peculiaridades encontradas durante el despliegue.
-
-    Scripts y ejemplos reales usados en laboratorio.
-
-    Secciones complementarias: almacenamiento persistente, gateway, troubleshooting, etc.
+- Pasos detallados para preparar la infraestructura (red, DNS, DHCP, PXE, etc.).
+- Configuración de nodos (bootstrap, masters y workers).
+- Instalación de OKD 4 en VMware/bare-metal.
+- Solución a problemas comunes y peculiaridades encontradas durante el despliegue.
+- Scripts y ejemplos reales usados en laboratorio.
+- Secciones complementarias: almacenamiento persistente, gateway, troubleshooting, etc.
 
 🧪 Enfoque
 
