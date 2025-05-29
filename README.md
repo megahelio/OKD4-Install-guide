@@ -2,8 +2,9 @@
 
 Guía técnica y práctica para desplegar un clúster OKD 4 (la distribución comunitaria de OpenShift) en entornos virtualizados y bare-metal, basada en la experiencia directa de instalación y pruebas reales.
 
-📍 Disponible en: megahelio.github.io/OKD4-Install-guide
-🎓 Origen del proyecto
+📍 Disponible en: [megahelio.github.io/OKD4-Install-guide](megahelio.github.io/OKD4-Install-guide)
+
+## 🎓 Origen del proyecto
 
 Esta guía nace como parte de un trabajo práctico para una asignatura del Máster en Ingeniería Informática, desarrollada durante un cuatrimestre con el objetivo de documentar de forma precisa y reproducible el proceso de despliegue de un clúster OKD 4 completo, con servicios auxiliares y configuración avanzada.
 ## 📖 ¿Qué contiene?
