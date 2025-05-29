@@ -1,4 +1,4 @@
-OKD4 Install Guide
+# OKD4 Install Guide
 
 Guía técnica y práctica para desplegar un clúster OKD 4 (la distribución comunitaria de OpenShift) en entornos virtualizados y bare-metal, basada en la experiencia directa de instalación y pruebas reales.
 
@@ -6,7 +6,7 @@ Guía técnica y práctica para desplegar un clúster OKD 4 (la distribución co
 🎓 Origen del proyecto
 
 Esta guía nace como parte de un trabajo práctico para una asignatura del Máster en Ingeniería Informática, desarrollada durante un cuatrimestre con el objetivo de documentar de forma precisa y reproducible el proceso de despliegue de un clúster OKD 4 completo, con servicios auxiliares y configuración avanzada.
-📖 ¿Qué contiene?
+## 📖 ¿Qué contiene?
 
 El sitio recopila:
 
@@ -17,10 +17,10 @@ El sitio recopila:
 - Scripts y ejemplos reales usados en laboratorio.
 - Secciones complementarias: almacenamiento persistente, gateway, troubleshooting, etc.
 
-🧪 Enfoque
+## 🧪 Enfoque
 
 No es una guía genérica copiada de documentación oficial. Nace de mi propia experiencia instalando este sistema sin experiencia previa.
-🔗 Créditos y fuentes
+## 🔗 Créditos y fuentes
 
 El trabajo se apoya en documentación oficial y varias guías comunitarias, adaptadas a un entorno académico con recursos limitados.
 
