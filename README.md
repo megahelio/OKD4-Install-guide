@@ -26,3 +26,5 @@ No es una guía genérica copiada de documentación oficial. Nace de mi propia e
 El trabajo se apoya en documentación oficial y varias guías comunitarias, adaptadas a un entorno académico con recursos limitados.
 
 Fuentes citadas y referenciadas directamente en la sección de recursos del sitio.
+
+Template: DefenderOfBasic/obsidian-quartz-template
