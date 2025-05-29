@@ -1,23 +1,32 @@
-# Obsidian / Quartz / GitHub Pages Template
+OKD4 Install Guide
 
-Deployed URL: https://defenderofbasic.github.io/obsidian-quartz-template
+Guía técnica y práctica para desplegar un clúster OKD 4 (la distribución comunitaria de OpenShift) en entornos virtualizados y bare-metal, basada en la experiencia directa de instalación y pruebas reales.
 
-Template for hosting your Obsidian notebook on GitHub pages with CI deployment. 
+📍 Disponible en: megahelio.github.io/OKD4-Install-guide
+🎓 Origen del proyecto
 
-## Basic setup
+Esta guía nace como parte de un trabajo práctico para una asignatura del Máster en Ingeniería Informática, desarrollada durante un cuatrimestre con el objetivo de documentar de forma precisa y reproducible el proceso de despliegue de un clúster OKD 4 completo, con servicios auxiliares y configuración avanzada.
+📖 ¿Qué contiene?
 
-Full tutorial with screenshots & videos: https://dev.to/defenderofbasic/host-your-obsidian-notebook-on-github-pages-for-free-8l1. 
+El sitio recopila:
 
-It's basically (1) fork this (2) go to repo's "Settings" > "Pages", Under "Build and Deployment" select GitHub Actions. Then go to "Actions" and enable GitHub actions for your fork. Edit the pages in [source/content](./source/content) with Obsidian or any text editor. It generates HTML using [Quartz](https://github.com/jackyzha0/quartz). To generate the HTML locally, run `npx quartz build --serve` in `./source/`
+    Pasos detallados para preparar la infraestructura (red, DNS, DHCP, PXE, etc.).
 
-## Raw HTML pages
+    Configuración de nodos (bootstrap, masters y workers).
 
-There is a [source/raw_html](./source/raw_html) folder that gets copied into the build folder in CI. This lets you host arbitrary HTML outside of quartz. Example: https://defenderofbasic.github.io/obsidian-quartz-template/raw-html-test.html
+    Instalación de OKD 4 en VMware/bare-metal.
 
-I made the "raw HTML" option for people who are generating HTML UI's with Claude/ChatGPT but want to tweak them/host them themselves. Or make a personal archive of web pages, etc.
+    Solución a problemas comunes y peculiaridades encontradas durante el despliegue.
 
-## Further customization
+    Scripts y ejemplos reales usados en laboratorio.
 
-> Quartz is meant to be extremely configurable, even if you don’t know any coding. Most of the configuration you should need can be done by just editing quartz.config.ts or changing the layout in quartz.layout.ts.
+    Secciones complementarias: almacenamiento persistente, gateway, troubleshooting, etc.
 
-https://quartz.jzhao.xyz/configuration
+🧪 Enfoque
+
+No es una guía genérica copiada de documentación oficial. Nace de mi propia experiencia instalando este sistema sin experiencia previa.
+🔗 Créditos y fuentes
+
+El trabajo se apoya en documentación oficial y varias guías comunitarias, adaptadas a un entorno académico con recursos limitados.
+
+Fuentes citadas y referenciadas directamente en la sección de recursos del sitio.
